@@ -1,0 +1,266 @@
+* {
+    /* color: blue; */
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.header{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 10px 10px rgb(0, 0, 255);
+}
+.header-wrap {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+}
+#logo img{
+    width: 100%;
+}
+.pry-nav {
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+.pry-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+.pry-nav ul li {
+    list-style-type: none;
+}
+.landing-box{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid blue; */
+    background-image: url("../img/scenery.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.landing-box h2{
+    color: white;
+}
+.landing-box p{
+    color: white;
+}
+button{
+    width: 300px;
+    height: 54px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border-style: dotted;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
+
+button:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+
+#main{
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    margin: auto;
+}
+.item {
+    width: 32%;
+    height: 300px;
+    /* border: 1px solid blue; */
+    box-shadow: 1px 10px 10px rgba(0, 0, 255, 0.082);
+    padding: 30px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:400px){
+    .services{
+        flex-direction: column;
+    }
+    .item{
+        width: 90%;
+        margin: auto;
+    }
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid blue; */
+}
+.icon-box img{
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    margin: auto;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+/* medias queries for works container */
+@media screen and (max-width:760px){
+    .container{
+        flex-direction: column;
+    }
+}
+.about-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    /* border: 1px solid blue; */
+    margin: 60px auto;
+}
+
+.img-box{
+    width: 320px;
+    height: 320px;
+    /* border: 1px solid blue; */
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+.text-box{
+    width: 49%;
+}
+.landing-item{
+    margin-top: 50px;
+}
+@media screen and (max-width:760px){
+    .about-container{
+        flex-direction: column;
+        /* margin: auto; */
+    }
+    .text-box{
+        width: 100%;
+    }
+    .img-box{
+        margin: auto;
+    }
+}
+h1{
+    color: blue;
+    font-family: cursive;
+    font-weight: 700;
+}
+.contact-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin: 60px auto;
+    /* border: 1px solid blue; */
+}
+.contact-item{
+    width: 49%;
+    /* border: 1px solid blue; */
+}
+.contact-form{
+    width: 49%;
+    /* border: 1px solid blue; */
+}
+.contact{
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+.contact-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+.contact-icon img{
+    width: 100%;
+    height: 100%;
+}
+.social-media{
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+input[type="text"]{
+    width: 100%;
+    height: 44px;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+
+
+@media screen and (max-width:760px){
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-item{
+        width: 100%;
+        margin: auto;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}
+
+form button {
+    width: 100%;
+}
+
+
+#header{
+    width: 100%;
+    height: 44px;
+    background-color: blue;
+    padding-top: 10px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+#header h3{
+    color: white;
+    margin: 0;
+}
+@media screen and (max-width:400px){
+    button{
+     /* width: 100%;  */
+     /* margin: auto; */
+
+    }
+}
